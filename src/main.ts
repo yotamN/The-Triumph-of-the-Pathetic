@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 
 // Create the application helper and add its render target to the page
-let app = new PIXI.Application({ width: 640, height: 360 });
+let app = new PIXI.Application({ width: window.innerWidth, height: window.innerHeight });
 document.body.appendChild(app.view);
 
 // Create the sprite and add it to the stage
